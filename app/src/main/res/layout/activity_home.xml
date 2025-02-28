@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="411dp"
+        android:layout_height="236dp"
+        android:gravity="center"
+        android:text="Accueil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/btnajout_home"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Ajouter"
+        app:rippleColor="#E91E63" />
+
+    <Button
+        android:id="@+id/btnaff_home"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Afficher" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déconnexion" />
+</LinearLayout>
